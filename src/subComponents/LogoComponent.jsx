@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 import { DarkTheme } from "../components/Themes";
 
 const Logo = styled.h1`
@@ -15,7 +16,11 @@ const Logo = styled.h1`
 `;
 
 const LogoComponent = (props) => {
-  return <Logo color={props.theme}>黎興</Logo>;
+  return (
+    <NavLink to="/">
+      <Logo color={props.theme}>黎興</Logo>
+    </NavLink>
+  );
 };
 
 export default LogoComponent;
