@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import Me from "../assets/Images/hattori_hanzo.png";
+import Me from "../assets/Images/saito_dosan_1.png";
 
 const Box = styled(motion.div)`
   position: absolute;

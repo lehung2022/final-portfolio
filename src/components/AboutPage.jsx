@@ -7,7 +7,7 @@ import SocialIcons from "../subComponents/SocialIcons";
 import PowerButton from "../subComponents/PowerButton";
 import ParticleComponent from "../subComponents/ParticleComponent";
 import BigTitle from "../subComponents/BigTitle";
-import sekiro from "../assets/Images/profile_img_sekiro.png";
+import takeda from "../assets/Images/Takeda_Shingen.png";
 
 const Box = styled.div`
   background-color: ${(props) => props.theme.body};
@@ -22,7 +22,7 @@ const float = keyframes`
 100% { transform: translateY(-10px) }
 
 `;
-const Sekiro = styled.div`
+const Takeda = styled.div`
   position: absolute;
   top: 10%;
   right: 5%;
@@ -63,9 +63,9 @@ const AboutPage = () => {
         <PowerButton />
         <ParticleComponent theme="dark" />
 
-        <Sekiro>
-          <img src={sekiro} alt="sekiro" />
-        </Sekiro>
+        <Takeda>
+          <img src={takeda} alt="sekiro" />
+        </Takeda>
         <Main>
           I'm a front-end developer located in Vietnam. I love creating simple
           yet beautiful websites with great user experience.
