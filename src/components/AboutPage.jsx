@@ -70,11 +70,13 @@ const AboutPage = () => {
           I'm a front-end developer located in Vietnam. I love creating simple
           yet beautiful websites with great user experience.
           <br /> <br />
-          I'm interested in the whole frontend stack. I like trying new things and
-          building great projects. I'm an independent freelancer and gamer. I
-          love practicing martial arts in my free time, and play games at weekends.
+          I'm interested in the whole frontend stack. I like trying new things
+          and building great projects. I'm an independent freelancer and gamer.
+          I love practicing martial arts in my free time, and play games at
+          weekends.
           <br /> <br />I believe everything is an Art when you put your
-          consciousness and heart into it. You can connect with me via social media links.
+          consciousness and heart into it. You can connect with me via social
+          media links.
         </Main>
 
         <BigTitle text="ABOUT" top="10%" left="5%" />
