@@ -7,8 +7,8 @@ const Box = styled.div`
 display:flex;
 cursor:pointer;
 position:fixed;
-left:8rem;
-top:3rem;
+left:2rem;
+top:5rem;
 z-index:10;
 
 &>*:nth-child(1){

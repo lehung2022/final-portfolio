@@ -48,7 +48,7 @@ const Main = styled.div`
   backdrop-filter: blur(4px);
 
   position: absolute;
-  left: calc(5rem + 5vw);
+  left: calc(3rem + 5vw);
   top: 10rem;
   font-family: "Ubuntu Mono", monospace;
   font-style: italic;
