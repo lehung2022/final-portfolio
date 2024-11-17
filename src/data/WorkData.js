@@ -47,7 +47,7 @@ export const Work = [
     name: "Cool game built with React",
     description: "A game website for gamers",
     tags: ["react", "react-router", "cool game"],
-    demo: "https://cool-game-v2.vercel.app",
-    github: "https://github.com/lehung2022/cool-game-v2",
+    demo: "https://coolgames-react-v2.vercel.app",
+    github: "https://github.com/lehung2022/coolgames-react-v2",
   },
 ];
