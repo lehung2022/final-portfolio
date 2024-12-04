@@ -10,7 +10,7 @@ import AboutPage from "./components/AboutPage";
 import BlogPage from "./components/BlogPage";
 import WorkPage from "./components/WorkPage";
 import MySkillsPage from "./components/MySkillsPage";
-import SoundBar from "./subComponents/SoundBar";
+import SoundBarOne from "./subComponents/SoundBarOne";
 
 function App() {
   const location = useLocation();
@@ -19,7 +19,7 @@ function App() {
       <GlobalStyle />
 
       <ThemeProvider theme={lightTheme}>
-        <SoundBar />
+        <SoundBarOne />
 
         {/* For framer-motion animation on page change! */}
         {/* Changed prop from exitBefore to mode */}

@@ -145,8 +145,8 @@ const Main = () => {
         <Center click={click}>
           <YinYang
             onClick={() => handleClick()}
-            width={click ? 120 : 200}
-            height={click ? 120 : 200}
+            width={click ? 100 : 160}
+            height={click ? 100 : 160}
             fill="currentColor"
           />
           <span>click here</span>
