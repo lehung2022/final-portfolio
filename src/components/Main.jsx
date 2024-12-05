@@ -145,8 +145,8 @@ const Main = () => {
         <Center click={click}>
           <YinYang
             onClick={() => handleClick()}
-            width={click ? 100 : 160}
-            height={click ? 100 : 160}
+            width={click ? 100 : 150}
+            height={click ? 100 : 150}
             fill="currentColor"
           />
           <span>click here</span>
@@ -184,7 +184,7 @@ const Main = () => {
             Blog
           </motion.h2>
         </BLOG>
-        <WORK to="/work" click={+click}>
+        <WORK to="/work" click={click}>
           <motion.h2
             initial={{
               y: -200,
@@ -201,7 +201,7 @@ const Main = () => {
           </motion.h2>
         </WORK>
         <BottomBar>
-          <ABOUT to="/about" click={+click}>
+          <ABOUT to="/about" click={click}>
             <motion.h2
               initial={{
                 y: 200,
